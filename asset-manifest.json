@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Photography-portfolio/static/css/main.987d5044.css",
+    "main.js": "/Photography-portfolio/static/js/main.73219ab0.js",
+    "index.html": "/Photography-portfolio/index.html",
+    "main.987d5044.css.map": "/Photography-portfolio/static/css/main.987d5044.css.map",
+    "main.73219ab0.js.map": "/Photography-portfolio/static/js/main.73219ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.987d5044.css",
+    "static/js/main.73219ab0.js"
+  ]
+}

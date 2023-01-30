@@ -35,33 +35,33 @@ export default function Navbar() {
             </g>{" "}
           </g>
         </svg>
-        <a className="nav-title" href="/Photography-portfolio">
+        <a className="nav-title" href="/">
           {photographer.name}{" "}
         </a>
       </div>
 
       <div className="nav-btn">
         <div for="nav-check">
-          <a href="/Photography-portfolio/Galerie"  >
+          <a href="/Galerie"  >
             Galerie
           </a>
-          <a href="/Photography-portfolio/Collections"  >
+          <a href="/Collections"  >
             Collections
           </a>
-          <a href="/Photography-portfolio/Contact">
+          <a href="/Contact">
             Contact
           </a>
         </div>
       </div>
 
       <div className="nav-links nav-responsive">
-        <a href="/Photography-portfolio/Galerie">
+        <a href="/Galerie">
           Galerie
         </a>
-        <a href="/Photography-portfolio/Collections">
+        <a href="/Collections">
           Collections
         </a>
-        <a href="/Photography-portfolio/Contact">
+        <a href="/Contact">
           Contact
         </a>
       </div>

@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 
-import styles from "@/styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 import { useEffect, useRef, useState } from "react";
 import Section from "../Components/Section";
 import { cars, Beach, all } from "../Data/Pictures";

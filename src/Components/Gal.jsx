@@ -1,5 +1,5 @@
 import PhotoViewer from "./PhotoViewer";
- 
+import Link from 'next/link' 
 import { useEffect } from "react";
 
 export default function Gal({
@@ -27,7 +27,7 @@ export default function Gal({
     <div>
       <div className="Galerie--Titel">
         {isCollections ? (
-            <a  class="material-symbols-outlined arrow" href="/Collections">arrow_back</a>
+            <Link  class="material-symbols-outlined arrow" href="/Collections">arrow_back</Link>
           
         ) : (
           ""
@@ -38,10 +38,11 @@ export default function Gal({
       </div>
 
       <div class="gallery">
-        {images.map((img) => (
-          <a class="gallery__link" onClick={ViewerToggler}>
+        {images.map((img,index) => (
+          <a class="gallery__link" onClick={ViewerToggler} key={index}>
             <figure class="gallery__thumb">
               <img
+                
                 src={img}
                 alt="Portrait by Oladimeji Odunsi"
                 class="gallery__image"

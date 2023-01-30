@@ -2,10 +2,10 @@ import { photographer } from "../Data/Profile";
 export default function Navbar() {
   return (
     <div class="nav">
-      <input type="checkbox" id="nav-check" />
+      
       <div className="nav-header">
-      <svg
-          fill="#000000"
+        <svg
+          fill="#ffffff"
           height="80px"
           width="80px"
           version="1.1"
@@ -14,7 +14,7 @@ export default function Navbar() {
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="-48.7 -48.7 584.40 584.40"
           xmlSpace="preserve"
-          className="nav-title" 
+          className="nav-title"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g
@@ -35,29 +35,33 @@ export default function Navbar() {
             </g>{" "}
           </g>
         </svg>
-        <a className="nav-title" href="/">
-          
+        <a className="nav-title" href="/Photography-portfolio">
           {photographer.name}{" "}
         </a>
-        
       </div>
 
       <div className="nav-btn">
-      <label for="nav-check">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
+        <div for="nav-check">
+          <a href="/Photography-portfolio/Galerie"  >
+            Galerie
+          </a>
+          <a href="/Photography-portfolio/Collections"  >
+            Collections
+          </a>
+          <a href="/Photography-portfolio/Contact">
+            Contact
+          </a>
+        </div>
       </div>
 
       <div className="nav-links nav-responsive">
-        <a href="/Galerie" target="_blank">
+        <a href="/Photography-portfolio/Galerie">
           Galerie
         </a>
-        <a href="/Collections" target="_blank">
+        <a href="/Photography-portfolio/Collections">
           Collections
         </a>
-        <a href="/Contact" target="_blank">
+        <a href="/Photography-portfolio/Contact">
           Contact
         </a>
       </div>

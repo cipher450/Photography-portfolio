@@ -18,7 +18,7 @@ export default function Galerie() {
       )}
       <Gal
         Titel="Galerie"
-        frontImage="https://scontent.falg5-2.fna.fbcdn.net/v/t31.18172-8/14207849_335755850100944_6925046916568869681_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeFu3FqCWTR8m8j_hODXkdHlZTPUQGm1ELRlM9RAabUQtBvyXCSXm-TthcKzZIfXignJ9MvEeY2zxx1oYcp6Znin&_nc_ohc=U4egMuLvbBAAX86jRm3&_nc_ht=scontent.falg5-2.fna&oh=00_AfD8X1jaSADcCHyqJytH00v8KezG1qPviFKoYRS0kIezHw&oe=63ED4825"
+        frontImage={cars[22]}
         images={pics}
         ViewerState={ViewerOn}
         ViewerStateFunc={SetViewerOn}

@@ -27,7 +27,7 @@ export default function Gal({
     <div>
       <div className="Galerie--Titel">
         {isCollections ? (
-            <a  class="material-symbols-outlined" href="/Collections">arrow_back</a>
+            <a  class="material-symbols-outlined arrow" href="/Collections">arrow_back</a>
           
         ) : (
           ""

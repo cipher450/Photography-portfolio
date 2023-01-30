@@ -18,12 +18,13 @@ footer{
   border-top: 1px solid whitesmoke;
   font-family:'Courier New', Courier, monospace;
   margin-bottom: 10px;
+  color: rgb(0, 0, 0);
 }
 footer a{
   margin-top: 50px;
   padding: 5px;
   border-bottom: 1px solid rgb(245, 245, 245);
- 
+ color: rgb(33, 20, 107);
 }
 .carousel {
   width: 100%;

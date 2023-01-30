@@ -15,11 +15,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/Photography-portfolio" element={<Layout />}>
           <Route index element={<Home />} />
 
-          <Route path="Galerie" element={<Galerie />} />
-          <Route path="Collections" element={<Collections />} />
+          <Route path="/Photography-portfolio/Galerie" element={<Galerie />} />
+          <Route path="/Photography-portfolio/Collections" element={<Collections />} />
          
         </Route>
       </Routes>

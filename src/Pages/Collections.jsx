@@ -39,7 +39,7 @@ export default function Collections() {
           Images: Animals,
         });
         break;
-      case "Urban":
+      case "Outdoors":
         SetGalerieProps({
           frontimage: Urban[5],
           Titel: gal_text,
@@ -73,22 +73,22 @@ export default function Collections() {
             <div className="image-col">
               <img
                 className="hex-cell"
-                src="https://scontent.falg5-1.fna.fbcdn.net/v/t31.18172-8/16300151_409113639431831_2704381912837435314_o.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeF6APfLmvc4xrtGpcpdoh09mCzxfm8HC86YLPF-bwcLztPkEp3M6XIvae3tEH70Zfw3v-gkpu0C-CjD_rvTXHaB&_nc_ohc=Vohau6FG2bcAX-SlSDg&_nc_ht=scontent.falg5-1.fna&oh=00_AfDooGWCnH5W6O24yL5E2Oi-qXI1oIHK80KSXMP8BFO3HA&oe=63ED7A79"
+                src={cars[5]}
                 alt=""
               />
               <img
                 className="hex-cell"
-                src="https://scontent.falg5-1.fna.fbcdn.net/v/t31.18172-8/16178953_409113856098476_5514573660214053392_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeHtNYsKi3ZPV1GFwBg7WV1tm2H4NQT1MS6bYfg1BPUxLq8sS368IhyRC12_W-b6oIWp9qQb52ZOY4g01oZz1nyB&_nc_ohc=iafJlbH09VAAX-8_MBs&_nc_ht=scontent.falg5-1.fna&oh=00_AfAXPjfdTh9cyv-jlTvVKeQv4Es7f_KFduUD2Emog41UJA&oe=63ED8CA0"
+                src={cars[10]}
                 alt=""
               />
               <img
                 className="hex-cell"
-                src="https://scontent.falg5-1.fna.fbcdn.net/v/t31.18172-8/16300338_409114059431789_643968163499589663_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeFaTLGdqFQY2TFjUF7BLbCRjDYaeKUATcyMNhp4pQBNzOKOMlvtTb8KqrsLgMNq63maPY4ozTuCeKdj_tOoGx_C&_nc_ohc=5EsUsUUrgyoAX9cNo-c&_nc_ht=scontent.falg5-1.fna&oh=00_AfBrygBTZO5ULNY54rBvFqwS9Zpp0y4DHnB11yqemW3KIw&oe=63ED59C6"
+                src={cars[2]}
                 alt=""
               />
               <img
                 className="hex-cell"
-                src="https://scontent.falg5-1.fna.fbcdn.net/v/t31.18172-8/16177755_409114379431757_2005402622221357695_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeG3R5Xl_iYDQ8svrh_KHp-u6C0DqrBmRz3oLQOqsGZHPdssB7BQuUHJ9QMoFURnG4AB-jO3ZIN3NJB583gNWN5B&_nc_ohc=ekE-6-zFQWAAX99Nwjy&_nc_ht=scontent.falg5-1.fna&oh=00_AfBbhsqDJ7KVJEuX2BmOqE8im7_9IIvvg_ZxxEm_GuQSpg&oe=63ED8113"
+                src={cars[6]}
                 alt=""
               />
             </div>
@@ -120,7 +120,7 @@ export default function Collections() {
           </div>
 
           <div className="col-1">
-            <h1 onClick={ShowGalerie}>Urban</h1>
+            <h1 onClick={ShowGalerie}>Outdoors</h1>
             <div className="image-col">
               <img className="hex-cell" src={Urban[5]} alt="" />
               <img className="hex-cell" src={Urban[6]} alt="" />

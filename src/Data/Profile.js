@@ -1,5 +1,5 @@
 const photographer={
-    name:"a rezio photography",
+    name:"Arezio Photography",
     descrption:""
 }
 

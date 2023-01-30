@@ -1,8 +1,9 @@
 
-import Carousel from "../Components/Carousel";
+ 
 import Section from "../Components/Section";
 import { useEffect, useRef, useState } from "react";
-import { all, sectionImages } from "../Data/Pictures";
+import { cars,  Beach,all } from "../Data/Pictures";
+ 
 export default function Home() {
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
@@ -34,9 +35,9 @@ export default function Home() {
       <div className="hero-image">
         <img src={all[index]}></img>
       </div>
-      <Section titel="Galerie" image={sectionImages[0]} />
-      <Section titel="Collections" image={sectionImages[1]} />
-      <Section titel="Contact" image={sectionImages[2]} />
+      <Section titel="Galerie" image={Beach[3]} />
+      <Section titel="Collections" image={cars[10]} />
+      <Section titel="Contact" image={require('../Data/contact.jpg')} />
      
     </>
   );

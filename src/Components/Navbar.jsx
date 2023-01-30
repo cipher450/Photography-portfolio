@@ -1,8 +1,12 @@
 import { photographer } from "../Data/Profile";
+import Link from 'next/link'
+import Head from "next/head";
 export default function Navbar() {
   return (
-    <div class="nav">
-      
+    <div className="nav">
+       <Head>
+        <title> {photographer.name}</title>
+      </Head>
       <div className="nav-header">
         <svg
           fill="#ffffff"
@@ -35,35 +39,36 @@ export default function Navbar() {
             </g>{" "}
           </g>
         </svg>
-        <a className="nav-title" href="/">
+        <Link className="nav-title" href="/">
           {photographer.name}{" "}
-        </a>
+        </Link>
+        
       </div>
 
       <div className="nav-btn">
         <div for="nav-check">
-          <a href="/Galerie"  >
+          <Link href="/Galerie"  >
             Galerie
-          </a>
-          <a href="/Collections"  >
+          </Link>
+          <Link href="/Collections"  >
             Collections
-          </a>
-          <a href="/Contact">
+          </Link>
+          <Link href="/Contact">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
 
       <div className="nav-links nav-responsive">
-        <a href="/Galerie">
+        <Link href="/Galerie">
           Galerie
-        </a>
-        <a href="/Collections">
+        </Link>
+        <Link href="/Collections">
           Collections
-        </a>
-        <a href="/Contact">
+        </Link>
+        <Link href="/Contact">
           Contact
-        </a>
+        </Link>
       </div>
     </div>
   );

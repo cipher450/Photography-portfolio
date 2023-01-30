@@ -1,5 +1,5 @@
 import PhotoViewer from "./PhotoViewer";
-import {Link } from "react-router-dom";
+ 
 import { useEffect } from "react";
 
 export default function Gal({

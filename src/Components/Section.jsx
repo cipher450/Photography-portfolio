@@ -1,7 +1,9 @@
+import Link from 'next/link'
+
 export default function Section(props){
     return (
         <section className="section" id="galerie">
-             <a href={"/Photography-portfolio/" + props.titel}>{props.titel}</a>
+             <Link href={"/" + props.titel}>{props.titel}</Link>
             <img src={props.image} alt="" />
            
         </section>

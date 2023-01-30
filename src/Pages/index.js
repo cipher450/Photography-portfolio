@@ -1,9 +1,12 @@
 
- 
-import Section from "../Components/Section";
+import Image from "next/image";
+
+import styles from "@/styles/Home.module.css";
 import { useEffect, useRef, useState } from "react";
-import { cars,  Beach,all } from "../Data/Pictures";
- 
+import Section from "../Components/Section";
+import { cars, Beach, all } from "../Data/Pictures";
+import React from "react";
+
 export default function Home() {
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
@@ -29,16 +32,16 @@ export default function Home() {
       resetTimeout();
     };
   }, [index]);
+
   return (
-    <>
+    <div className="index">
     
       <div className="hero-image">
-        <img src={all[index]}></img>
+        <Image src={all[index]} fill={true}></Image>
       </div>
       <Section titel="Galerie" image={Beach[3]} />
       <Section titel="Collections" image={cars[10]} />
-      <Section titel="Contact" image={require('../Data/contact.jpg')} />
-     
-    </>
+      <Section titel="Contact" image={"./images/contact.jpg"} />
+    </div>
   );
 }

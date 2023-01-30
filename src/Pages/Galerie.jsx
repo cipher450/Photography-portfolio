@@ -2,7 +2,7 @@ import { useState } from "react";
 import Gal from "../Components/Gal";
 import PhotoViewer from "../Components/PhotoViewer";
 import { cars, nature, Urban, Beach, Animals } from "../Data/Pictures";
-import ScrollToTop from "react-scroll-to-top";
+//import ScrollToTop from "react-scroll-to-top";
 
 export default function Galerie() {
   let pics = cars.concat(nature, Urban, Beach, Animals);
@@ -25,7 +25,8 @@ export default function Galerie() {
         imgLinkFunc={SetimageLink}
         isCollections={false}
       />
-      <ScrollToTop smooth />
+     { //<ScrollToTop smooth />
+     }
      
     </div>
   );

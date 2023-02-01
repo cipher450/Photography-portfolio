@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Gal from "../Components/Gal";
 import PhotoViewer from "../Components/PhotoViewer";
+
 //Images collections
 import { cars, nature, Urban, Beach, Animals } from "../Data/Pictures";
 export default function Collections() {

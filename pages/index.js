@@ -42,6 +42,7 @@ export default function Home() {
       <Section titel="Galerie" image={Beach[3]} />
       <Section titel="Collections" image={cars[10]} />
       <Section titel="Contact" image={"./images/contact.jpg"} />
+      
     </div>
   );
 }

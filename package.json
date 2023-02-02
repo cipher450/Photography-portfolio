@@ -7,12 +7,13 @@
     "build": "next  build",
     "start": "next start",
     "lint": "next lint",
-    "all" : " npm install && npm run build"
+    "all": " npm install && npm run build"
   },
   "dependencies": {
     "@next/font": "13.1.6",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "firebase": "^9.16.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"

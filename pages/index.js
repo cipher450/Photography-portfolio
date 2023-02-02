@@ -37,7 +37,7 @@ export default function Home() {
     <div className="index">
     
       <div className="hero-image">
-        <Image src={all[index]} fill={true}></Image>
+        <img src={all[index]} fill={true}></img>
       </div>
       <Section titel="Galerie" image={Beach[3]} />
       <Section titel="Collections" image={cars[10]} />

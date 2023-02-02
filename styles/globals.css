@@ -408,9 +408,7 @@ footer h1 {
   width: 400px;
 }
 
-.index > :nth-child(2) {
-  margin-top: 95vh;
-}
+ 
 @media only screen and (max-width: 600px) {
   .nav > .nav-btn {
     display: inline-block;
